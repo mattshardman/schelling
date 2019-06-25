@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "/go/index.go", "use": "@now/go"
+        },
+        {
+            "src": "/node/index.js", "use": "@now/node"
+        }
+    ]
+}

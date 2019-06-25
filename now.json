@@ -1,11 +1,15 @@
 {
   "version": 2,
   "name": "schelling",
+  "alias": "schelling",
   "builds": [
     {
       "src": "package.json",
       "use": "@now/static-build",
       "config": { "distDir": "build" }
+    },
+    {
+      "src": "/api/node/index.js", "use": "@now/node"
     }
   ],
   "routes": [
